@@ -79,7 +79,7 @@ window.addEventListener('resize', () => {
   h = canvas.height = window.innerHeight;
 });
 
-const startDate = new Date(2024, 0, 31);
+const startDate = new Date(2025, 0, 31);
 function updateRelationshipTime() {
   const now = new Date();
   let diffMs = now - startDate;
